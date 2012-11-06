@@ -33,4 +33,4 @@ alert('myPet is ' + myPet); // results in 'myPet is [Cat "Felix"]'
 
 myPet.haveABaby(); // calls a method inherited from Mammal
 alert(myPet.offspring.length); // shows that the cat has one baby now
-alert(myPet.offspring[0]); // results in '[Mammal "Baby Felix"]'
+alert(myPet.offspring[0]); // results in '[Cat "Baby Felix"]'
